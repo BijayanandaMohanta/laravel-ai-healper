@@ -1,0 +1,18 @@
+/* In global styles (App.css or index.css) */
+pre code {
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: Consolas, Monaco, 'Courier New', monospace;
+  line-height: 1.5;
+}
+.main-grid{
+  display: grid;
+  grid-template-columns: 18rem 1fr;
+  height: 100vh;
+}
+.content {
+  overflow-y: auto;
+}
+.form-control:focus{
+  box-shadow: 0 0 0px 1px rgba(13, 110, 253, .25) !important;
+}
