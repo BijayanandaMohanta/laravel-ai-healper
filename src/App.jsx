@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ArtisanGenerator from "./components/ArtisanGenerator";
 import Sidebar from "./components/Sidebar";
 import CrudGenerator from "./components/CrudGenerator";
+import SyntaxCheck from "./components/SyntaxCheck";
+import Encryption from "./components/Encryption";
 import Home from './components/Home';
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
           <Routes>
             <Route path="/artisan-generator" element={<ArtisanGenerator />} />
             <Route path="/crud-generator" element={<CrudGenerator />} />
+            <Route path="/syntax-check" element={<SyntaxCheck />} />
+            <Route path="/encryption" element={<Encryption />} />
             <Route path="/" element={<Home />} /> {/* Default route */}
           </Routes>
         </div>

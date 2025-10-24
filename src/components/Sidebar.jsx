@@ -32,6 +32,16 @@ const Sidebar = () => {
               <i className="bi bi-hammer me-2"></i> CRUD Generator
             </Link>
           </li>
+          <li className="nav-item mb-3">
+            <Link to="/syntax-check" className="nav-link text-white">
+              <i class="bi bi-spellcheck me-2"></i> Syntax Check
+            </Link>
+          </li>
+          <li className="nav-item mb-3">
+            <Link to="/encryption" className="nav-link text-white">
+              <i class="bi bi-shield-lock me-2"></i> Password Encryption
+            </Link>
+          </li>
           {/* Add more links here */}
         </ul>
       </div>
